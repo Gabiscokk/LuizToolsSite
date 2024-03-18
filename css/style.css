@@ -1,0 +1,216 @@
+@import url(https://db.onlinewebfonts.com/c/faec7b39028890b34621e55089f6e247?family=Termina+W00+Demi);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .titulo {
+        font-size: 40px;
+        font-weight: 400;
+        font-family: "Termina W00 Demi";
+        font-size: 64px;
+        line-height: 1.2;
+    }
+}
+
+.imagem {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.titulo-ti {
+    font-family: work sans, sans-serif;
+}
+
+.pr {
+    color: #ff9659;
+    font-family: work sans, sans-serif;
+}
+
+body {
+    padding-bottom: 128px;
+    background-repeat: no-repeat;
+    background-color: #09040f;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-image: linear-gradient(360deg, #09040f, rgba(0, 0, 0, .5)), linear-gradient(140deg, #ee0c0c, #ff9659 22%, #d73802 38%, #2b2b2b 57%, #011c34 75%, #000);
+    
+}
+
+.itm {
+    color: #FFF;
+    font-family: "Work Sans", sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #ff9659;  
+}
+
+ul{
+    position: absolute;
+    right: 55px;
+    margin-left: 16%;  
+    gap: 45px;   
+}
+
+.itm1 {
+    border-bottom: 2px solid #ff9659;
+    text-shadow: 0 1px 6px rgba(237,198,255,.5);
+}
+
+.crs {
+    max-width: 70%;
+}
+
+
+.tornarTXT {
+    color: #d73802;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 150px;
+    line-height: 120%;
+}
+
+.titulo2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: "Termina W00 Demi";
+}
+
+.JavaTXT {
+    margin-bottom: 16px;
+    font-family: work sans, sans-serif;
+    color: #ff9659;
+    font-size: 20px;
+}
+
+.dark_card {
+padding: 8px;
+}
+
+.card {
+    background-color: #181628;
+    border: 1px solid #28263a;
+    height: 330px;
+    padding: 32px;
+    /* width: 365px; */
+    border-radius: 8px;
+    /* margin: 0px 15px 15px 0px; */
+}
+
+.bolaIMG {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: #2b2b2b;
+    text-align: center;
+}
+
+
+.navOPC { 
+    padding: 4px 0 0;
+    font-family: "Work sans",sans-serif;
+    color: #ff9659;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-shadow: 0 1px 6px rgb(237, 198, 255 / -50%);
+    border-radius: 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.figura {
+    font-size: 32px;
+    line-height: 32px;
+    cursor: default;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+
+#laranjaBTN {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    padding: 16px 24px;
+    margin-left: 0;
+    font-family: "Work Sans", sans-serif;
+    transition: background-color 400ms cubic-bezier(.165,.84,.44,1),
+                box-shadow 400ms cubic-bezier(.165,.84,.44,1),
+                transform 400ms cubic-bezier(.165,.84,.44,1),
+                -webkit-transform 400ms cubic-bezier(.165,.84,.44,1);
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    background-color: #d73802;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    color: #FFFFFF;
+}
+
+#laranjaBTN:hover {
+    -webkit-transform: translate(0, -2px);
+    -ms-transform: translate(0, -2px);
+    background-color: #ee0c0c;
+    box-shadow: 0 5px 10px 0 rgba(106,89,255,.2);
+    transform: translate(0, -2px);
+}
+
+.crs-2023 {
+    font-family: "Work Sans", sans-serif;
+    color: #ff9659;
+    font-size: 16px;
+    line-height: 150%;
+    min-width: 270px;
+    font-weight: 500;
+}
+
+.player {
+    margin-top: 80px;
+}
+
+
+.ZapBTN {
+    right: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #999;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 40px;
+}
+
+.whatsapp {
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #ff9659;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.zap {
+    border-radius: 100%;
+}

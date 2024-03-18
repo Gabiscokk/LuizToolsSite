@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Node.js e MongoDB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container mt-5">
+            <a class="navbar-brand" href="#">
+                <img src="./img/Logo.webp" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="itm">
+                        <a class="nav-link itm1" aria-current="page" style="color: #ff9659;" href="#">Início</a>
+          </li>
+                    <li class="itm">
+                        <a class="nav-link navOPC" href="#crs">Conteúdo</a>
+                    </li>
+                    <li class="itm">
+                        <a class="nav-link  navOPC" href="#">Inscrição</a>
+                    </li>
+                    <li class="itm">
+                        <a class="nav-link navOPC" href="#">Dúvidas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mr-auto">
+          <li class="itm active">
+            <a class="nav-link first_li light-orange" href="#">Inicio</a>
+          </li>
+          <li class="itm">
+            <a class="nav-link" href="#crs">Conteúdo</a>
+          </li>
+          <li class="itm">
+              <a class="nav-link" href="#">Inscrição</a>
+          </li>
+          <li class="itm">
+              <a class="nav-link" href="#">Dúvidas</a>
+          </li>
+      </ul>
+      </div>
+      <script>
+        document.querySelector('a[href="crs"]').addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const destino = document.querySelector('crs');
+        const offsetTop = destino.offsetTop;
+
+        window.scroll({
+            top: offsetTop,
+            behavior: 'smooth'
+        });
+        });
+      </script>
+    <div class="container mt-5">
+        <div class="area mt-5">
+            <div class="row">
+
+            <div class="col-12 col-lg-5 crs">
+                
+                    <h1 class=" text-white titulo">Curso Node.js <br>
+                        e MongoDB</h1>
+                
+                <h3 class="text">Aprenda a desenvolver suas primeiras aplicações <br> web e web APIs usando as
+                    tecnologias que mais crescem no mercado!</h3>
+                <h3 class="text">Dê um start na sua carreira ou atualize-se, se <br> tornando um desenvolvedor Node.js!
+                </h3>
+
+               
+                    <div class="">
+                        <a href="" class="btn-inscricao mt-3" id="laranjaBTN">Ver Preço e Inscrição</a>
+                    </div>
+                        <p class="crs-2023 mt-3 col-md-2">Curso atualizado 2023, prático, com certificado e suporte online.</p>
+
+                 </div>
+                <div class="col-12 col-lg-5 d-flex  justify-items-center  position" class="video">
+                    <iframe class="player" width="100%" height="315" src="https://www.youtube.com/embed/_LvzW_cvCaQ?si=JAa5ZEq6HN1lZdnF"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                
+
+            </div>
+            
+        </div>
+    </div>
+    <div class="">
+        <h4 class="text-start tornarTXT">TORNE-SE UM DESENVOLVEDOR DE APLICAÇÕES</h4>
+        <h1 class="titulo2">Node.js e MongoDB</h1>
+        <h3 class="JavaTXT">JavaScript é hoje a linguagem de programação mais popular do mundo. Aliada à plataforma Node.js e ao banco de dados MongoDB, você desenvolve end-to-end com apenas uma linguagem de programação.</h3>
+    </div>
+    <div class="container-lg col-12">
+       <div class="col-12 d-flex flex-wrap">
+            <div class="col-lg-4 col-md-6 dark_card">
+                <div class="card">
+                    <div class="bolaIMG">
+                        <img src="./img/nodejs-logo.png" alt="" class="imagem">
+                    </div>
+                    <div class="text-white fw-bolder fs-4 mt-3 titulo-text">
+                        Node.js
+                    </div>
+                    <div class="mt-3 pr">
+                        Uma plataforma que permite criar aplicações utilizando arquiteturas modernas e escaláveis.
+                    </div>
+                </div>
+            </div>   
+            <div class="col-lg-4 col-md-6 dark_card">
+                <div class="card">
+                    <div class="bolaIMG">
+                        <img src="./img/mongodb-logo.svg" alt="" class="imagem">
+                    </div>
+                    <div class="text-white fw-bolder fs-4 mt-3 titulo-ti">
+                        MongoDB
+                    </div>
+                    <div class="mt-3 pr">
+                        Simplesmente o banco de dados mais prático para você aprender a construir aplicações reais com Node.js.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 dark_card">
+                <div class="card">
+                    <div class="bolaIMG">
+                        <img src="./img/expressjs-logo.png" alt="" class="imagem">
+                    </div>
+            <div class="text-white fw-bolder fs-4 mt-3 titulo-ti">
+                        ExpressJS
+                    </div>
+                    <div class="mt-3 pr">
+                        O framework web para Node.js mais utilizado no mundo, por empresas de todos os tamanhos.
+            </div>
+        </div>
+            </div>
+            <div class="col-lg-4 col-md-6 dark_card">
+    <div class="card">
+            <div class="bolaIMG">
+                <img src="./img/microservices-logo.png" alt="" class="imagem">
+                    </div>
+                    <div class="text-white fw-bolder fs-4 mt-3 titulo-ti">
+                        Microservices
+                    </div>
+                    <div class="mt-3 pr">
+                        A arquitetura de software #1 atualmente quando o assunto é aplicações distribuídas e escaláveis.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 dark_card">
+        <div class="card">
+             <div class="bolaIMG">
+            <img src="./img/aws-logo.png" alt="" class="imagem">
+             </div>
+            <div class="text-white fw-bolder fs-4 mt-3 titulo-ti">
+                        Amazon AWS
+        </div>
+        <div class="mt-3 pr">
+                        Não basta desenvolver, você tem de saber como subir a sua aplicação em produção. Que tal na Amazon AWS?
+        </div>
+        </div>
+            </div>
+            <div class="col-lg-4 col-md-6 dark_card">
+                <div class="card">
+                <div class="bolaIMG">
+                <div class="figura text-center">
+                            🙌🏻
+                </div>
+                </div>
+                <div class="text-white fw-bolder fs-4 mt-3 titulo-ti">
+                        E muito mais!
+                </div>
+                <div class="mt-3 pr">
+                        Você aprenderá de maneira prática a usar os principais pacotes e técnicas do mercado.
+                </div>
+                </div>
+                </div>
+        </div>
+    
+    
+    <div class="ZapBTN position-fixed text-center zap mx-auto my-0">
+        <i class="fa-brands fa-whatsapp fs-3 position-relative whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=+5551992963583&text=Olá%21%20Quero%…horário%20comercial%20eu%20posso%20demorar%20a%20receber%20uma%20resposta.">
+            </a>
+        </i>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/d4d4cad938.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
